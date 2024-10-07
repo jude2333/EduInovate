@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314711900417",
+    "project_id": "eduinovate-a1469",
+    "storage_bucket": "eduinovate-a1469.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314711900417:android:f9d312f6bf5f5cee029b00",
+        "android_client_info": {
+          "package_name": "com.jude.educate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0OoQUloKd7K1uuzBVnHHCkIyqz2sVijs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

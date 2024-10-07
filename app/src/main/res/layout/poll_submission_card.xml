@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/lavenderLight"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lavenderLight">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Poll Header -->
+        <TextView
+            android:id="@+id/pollTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Created Poll"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Poll Date and Question -->
+        <TextView
+            android:id="@+id/pollDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16 Sept 2024"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pollQuestionCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:text="What is your favourite animal?"
+            android:textSize="18sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="20dp"
+            android:elevation="20dp">
+        <!-- Poll Options with ProgressBar -->
+            <RadioGroup
+                android:id="@+id/pollOptionsGroup"
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/option1Card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cat"
+                    android:textColor="@color/black" />
+
+                <!-- Progress bar for option 1 -->
+                <ProgressBar
+                    android:id="@+id/progressOption1Card"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:max="100"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:outlineSpotShadowColor="@color/black"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/pollSubmittedPercentageOption1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="percentage"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/option2Card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dog"
+                    android:textColor="@color/black" />
+
+                <!-- Progress bar for option 2 -->
+                <ProgressBar
+                    android:id="@+id/progressOption2Card"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:max="100"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/pollSubmittedPercentageOption2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="percentage"
+                    android:textSize="20dp" />
+
+            </RadioGroup>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Submit Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitPollButton"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

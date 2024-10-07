@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:padding="16dp"
+    android:background="@color/cement"
+    tools:context=".Cource.CourceCreation">
+
+  <!-- Title -->
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:text="Create a New Course"
+      android:textColor="@color/lavenderDark"
+      android:textSize="24sp"
+      android:textStyle="bold" />
+
+  <!-- Course Name -->
+  <EditText
+      android:id="@+id/course_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter course name"
+      android:inputType="text"
+      android:layout_marginTop="16dp" />
+
+  <!-- Decoration Texts -->
+  <TextView
+      android:id="@+id/decoration_text1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Please enter the course details below"
+      android:textSize="16sp"
+      android:layout_marginTop="16dp" />
+
+  <TextView
+      android:id="@+id/decoration_text2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="This information will be used to create a new course"
+      android:textSize="16sp"
+      android:layout_marginTop="8dp" />
+
+  <!-- Create Button -->
+
+  <Button
+
+      android:id="@+id/create_cource"
+
+      android:layout_width="wrap_content"
+
+      android:layout_height="wrap_content"
+
+      android:text="Create"
+
+      android:textSize="18sp"
+
+      android:layout_marginTop="24dp"
+
+      android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

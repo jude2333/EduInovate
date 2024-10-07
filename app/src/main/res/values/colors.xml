@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#7b2cbf</color>
+    <color name="secondry">#0A0765</color>
+    <color name="third">#BBADEE</color>
+    <color name="lavender">#8692f7</color>
+    <color name="lavenderDark">#7A63FF</color>
+    <color name="purple">#800080</color>
+    <color name="grey">#353535</color>
+    <color name="new_color_primary">#8d7cf6</color>
+    <color name="beige">#fefae0</color>
+    <color name="cement">#ced4da</color>
+
+    <color name="lavenderLight">#e7c6ff</color>
+    <color name="backgroundColor">#fefae0</color>
+    <color name="textPrimaryColor">#333333</color>
+    <color name="textSecondaryColor">#555555</color>
+
+
+    <color name="sdk_disclaimer_bg">#55000000</color>
+    <color name="search_icon_color">@android:color/white</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="share_app_link_text_color">#01cd3b</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="sky_blue">#1bc1e2</color>
+    <color name="slightly_dark_gray">#606060</color>
+    <color name="smoke_white">#f5f5f5</color>
+    <color name="stepper_actions">#fff</color>
+    <color name="stepper_actions_blue">#98d1ff</color>
+    <color name="stepper_actions_disabled">#85ffffff</color>
+    <color name="stepper_background">#8a8eff</color>
+    <color name="stepper_background_blue">#f5f5f5</color>
+    <color name="stepper_button">#ffffff</color>
+    <color name="stepper_text">#6d72ff</color>
+    <color name="stepper_text_blue">#3da8fe</color>
+
+</resources>

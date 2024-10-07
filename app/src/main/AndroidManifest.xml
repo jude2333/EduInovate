@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Educate"
+        tools:targetApi="34">
+        <activity
+            android:name=".StudyMaterial.StudentMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudyMaterial.StudyMaterialDetails"
+            android:exported="false" />
+        <activity
+            android:name=".StudyMaterial.StudyMaterialCreation"
+            android:exported="false" />
+        <activity
+            android:name=".StudyMaterial.StudyMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".Progress.ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Progress.StudentProgress"
+            android:exported="false" />
+        <activity
+            android:name=".Poll.Poll_Submission"
+            android:exported="false" />
+        <activity
+            android:name=".Poll.StudentPoll"
+            android:exported="false" />
+        <activity
+            android:name=".Poll.PollsSubmittedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Poll.PollCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Poll.PollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.AssignmentSubmisttedDeatails"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.SubmittedAssignmentStudents"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.StudentAssignmentSubmission"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.StudentAssignmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.AssignmentCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.AssignmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cource.CourseDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Student.StudentEnroll"
+            android:exported="false" />
+        <activity
+            android:name=".Cource.CourceCreation"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Assignment.AssignmentSubmittedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".login.AdminSignUp"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="true" />
+        <activity
+            android:name=".FacultyOverview"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacultySignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FacultyOrStudentActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

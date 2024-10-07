@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/cement"
+    android:layout_marginTop="40dp"
+    android:padding="16dp"
+    tools:context=".Student.StudentEnroll">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll a New Student"
+        android:textColor="@color/lavenderDark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Course Name -->
+    <EditText
+        android:id="@+id/studentemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter student email"
+        android:inputType="text"
+        android:layout_marginTop="16dp" />
+    <EditText
+        android:id="@+id/studentname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter student name"
+        android:inputType="text"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/decoration_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter the student details below"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/decoration_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This information will be used to enroll a new student."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Create Button -->
+
+    <Button
+
+        android:id="@+id/enroll_button"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Enroll"
+
+        android:textSize="18sp"
+
+        android:layout_marginTop="24dp"
+
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
